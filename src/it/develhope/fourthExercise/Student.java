@@ -6,14 +6,14 @@ public class Student {
     public int grade;
 
 
-    public void creation(String studentName) {
-        System.out.println("we are creating an object");
+    public Student(String studentName) {
+        System.out.println("The name of the student is " + studentName);
         this.name = studentName;
 
     }
 
     public void getStudentDetails() {
-        System.out.println(name + grade);
+        System.out.println(name + " " +  grade);
     }
 
 
