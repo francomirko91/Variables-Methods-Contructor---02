@@ -10,11 +10,9 @@ public class Start {
 
         Teacher teacher = new Teacher("Maria");
 
+        teacher.assignGrade(student1,5);
+        teacher.assignGrade(student2,10);
 
-
-
-        student1.grade = 5;
-        student2.grade = 10;
 
         student1.getStudentDetails();
         student2.getStudentDetails();
